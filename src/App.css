@@ -1,0 +1,157 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f6fc;
+  color: #39445c;
+}
+
+.container {
+  min-height: 100vh;
+  padding: 35px 5%;
+}
+
+/* Header */
+.header {
+  background: linear-gradient(120deg, #91b9e8, #e9a9ca);
+  color: white;
+  padding: 35px;
+  border-radius: 16px;
+  margin-bottom: 25px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(180, 150, 200, 0.15);
+}
+
+.header h1 {
+  font-size: 30px;
+  margin-bottom: 10px;
+  color: white;
+}
+
+.header p {
+  color: white;
+  font-size: 14px;
+}
+
+/* Kartu jumlah mahasiswa */
+.info-card {
+  background: white;
+  width: 280px;
+  padding: 25px;
+  border-radius: 16px;
+  margin: 0 auto 25px;
+  text-align: center;
+  box-shadow: 0 5px 18px rgba(180, 150, 200, 0.12);
+  border-bottom: 4px solid #e9a9ca;
+}
+
+.info-card h3 {
+  color: #8b8298;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.info-card h2 {
+  color: #739fd3;
+  font-size: 28px;
+}
+
+/* Jam digital */
+.clock-card {
+  background: linear-gradient(120deg, #e8efff, #fce7f1);
+  padding: 28px;
+  border-radius: 16px;
+  margin-bottom: 25px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(180, 150, 200, 0.10);
+}
+
+.clock-card h3 {
+  color: #8b8298;
+  font-size: 14px;
+  margin-bottom: 12px;
+}
+
+.clock-card h1 {
+  font-size: 42px;
+  color: #729bd0;
+  margin: 10px 0;
+}
+
+.clock-card p {
+  color: #a17d9a;
+  font-size: 14px;
+}
+
+/* Tabel mahasiswa */
+.table-container {
+  background-color: white;
+  padding: 25px;
+  border-radius: 16px;
+  box-shadow: 0 5px 18px rgba(180, 150, 200, 0.10);
+}
+
+.table-container h2 {
+  color: #739fd3;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.table-responsive {
+  width: 100%;
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  min-width: 950px;
+  border-collapse: collapse;
+}
+
+thead {
+  background: linear-gradient(120deg, #8fb6e5, #d99cbd);
+  color: white;
+}
+
+th, td {
+  padding: 16px 12px;
+  text-align: left;
+  font-size: 13px;
+  border-bottom: 1px solid #f0e8f0;
+}
+
+th {
+  font-weight: 600;
+}
+
+tbody tr:hover {
+  background-color: #fff3f8;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #f8faff;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .container {
+    padding: 20px 4%;
+  }
+
+  .header h1 {
+    font-size: 24px;
+  }
+
+  .clock-card h1 {
+    font-size: 32px;
+  }
+
+  .table-container {
+    padding: 15px;
+  }
+}
